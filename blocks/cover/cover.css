@@ -1,3 +1,9 @@
 .cover {
   position: relative;
 }
+
+@media (min-width: 1025px) {
+  .cover {
+   padding: 0 3.75vw;
+  }
+ }

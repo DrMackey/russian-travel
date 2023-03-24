@@ -6,3 +6,22 @@
   padding-bottom: 48px;
   box-sizing: content-box;
 }
+
+@media (min-width: 426px) {
+  .header {
+    height: 52px;
+    padding: 28px 3.12vw 48px 3.12vw;
+  }
+}
+
+@media (min-width: 769px) {
+  .header {
+    padding: 28px 4.68vw 48px 4.68vw;
+  }
+}
+
+@media (min-width: 1025) {
+  .header {
+    padding: 28px 4.68vw 56px 4.68vw;
+  }
+}

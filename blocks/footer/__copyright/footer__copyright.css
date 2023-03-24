@@ -1,0 +1,10 @@
+.footer__copyright {
+  margin: 0;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  white-space: nowrap;
+}
+

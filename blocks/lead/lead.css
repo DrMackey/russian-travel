@@ -1,3 +1,15 @@
 .lead {
   padding-bottom: 64px;
 }
+
+@media (min-width: 426px) {
+  .lead {
+    padding-bottom: 88px;
+  }
+}
+
+@media (min-width: 769px) {
+  .lead {
+    padding-bottom: 92px;
+  }
+}

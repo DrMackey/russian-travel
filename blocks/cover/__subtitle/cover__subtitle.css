@@ -1,9 +1,40 @@
 .cover__subtitle {
   position: relative;
   margin: 0;
+  padding: 0 16px;
+  padding-bottom: 33px;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  color: white;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
   z-index: 1;
+}
+
+@media (min-width: 426px) {
+  .cover__subtitle {
+    padding: 0 26.5vw 14.9vw 26.5vw;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 769px) {
+  .cover__subtitle {
+    padding: 0 32.42vw 19.04vw 32.42vw;
+
+  }
+}
+
+@media (min-width: 1025px) {
+  .cover__subtitle {
+   padding: 0 32.18vw 19.14vw 32.18vw;
+  }
+ }
+
+ @media (min-width: 1281px) {
+  .cover__title {
+    padding: 0px 412px 245px 412px;
+  }
 }

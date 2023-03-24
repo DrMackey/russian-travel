@@ -3,7 +3,37 @@
   padding: 16px;
   padding-top: 0;
   text-align: center;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  color: white;
   font-size: 40px;
   font-weight: 900;
   line-height: 44px;
+}
+
+@media (min-width: 426px) {
+  .lead__title {
+    padding: 0 3.1vw 32px 3.1vw;
+    font-size: 12.5vw;
+    line-height: 100px;
+  }
+}
+
+@media (min-width: 769px) {
+  .lead__title {
+    padding: 0 14.8vw 32px 14.8vw;
+    font-size: 9.37vw;
+  }
+}
+
+@media (min-width: 1025px) {
+  .lead__title {
+    padding: 0 21.87vw 32px 21.87vw;
+    font-size: 7.5vw;
+  }
+}
+
+@media (min-width: 1281px) {
+  .lead__title {
+    font-size: 96px;
+  }
 }
