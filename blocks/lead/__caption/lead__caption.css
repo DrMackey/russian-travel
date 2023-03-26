@@ -1,6 +1,6 @@
 .lead__caption {
-  margin: 0;
-  padding: 0 16px;
+  max-width: 90vw;
+  margin: 0 auto;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   color: white;
   font-weight: 400;
@@ -12,18 +12,12 @@
 
 @media (min-width: 426px) {
   .lead__caption {
-    padding: 0 24px;
+    max-width: 93.75vw;
   }
  }
 
  @media (min-width: 769px) {
   .lead__caption {
-    padding: 0 4.6vw;
+    max-width: 100%;
   }
  }
-
-@media (min-width: 1025px) {
-  .lead__caption {
-    padding: 0 11.56vw;
-  }
-}

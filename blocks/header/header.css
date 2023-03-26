@@ -1,27 +1,30 @@
 .header {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  max-width: 90vw;
   height: 42px;
-  padding: 16px;
-  padding-bottom: 48px;
+  padding: 16px 0 48px;
   box-sizing: content-box;
 }
 
 @media (min-width: 426px) {
   .header {
+    max-width: 93.75vw;
     height: 52px;
-    padding: 28px 3.12vw 48px 3.12vw;
+    padding: 28px 0 48px;
   }
 }
 
 @media (min-width: 769px) {
   .header {
-    padding: 28px 4.68vw 48px 4.68vw;
+    max-width: 90.62vw;
   }
 }
 
-@media (min-width: 1025) {
+@media (min-width: 1025px) {
   .header {
-    padding: 28px 4.68vw 56px 4.68vw;
+    max-width: 92.5vw;
+    padding: 28px 0 56px;
   }
 }

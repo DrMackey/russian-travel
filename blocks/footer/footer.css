@@ -1,24 +1,28 @@
 .footer {
-  padding:64px 16px 24px 16px ;
+  margin: 0 auto;
+  max-width: 90vw;
+  padding: 64px 0 24px;
 }
 
 @media (min-width: 426px) {
   .footer {
+    max-width: 93.75vw;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 88px 3.1vw 24px 3.1vw;
+    padding: 88px 0 24px;
   }
 }
 
 @media (min-width: 769px) {
   .footer {
-    padding: 92px 4.68vw 24px 4.68vw;
+    max-width: 90.62vw;
+    padding: 92px 0 24px;
   }
 }
 
 @media (min-width: 1025px) {
   .footer {
-   padding: 92px 3.75vw 24px 3.75vw;
+    max-width: 92.5vw;
   }
  }

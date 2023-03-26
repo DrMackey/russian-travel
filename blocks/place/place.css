@@ -1,30 +1,16 @@
 .place {
   display: grid;
-  padding-bottom: 50px;
+  gap: 50px;
 }
 
-.place:last-child {
-  padding-bottom: 0;
-}
-
-@media (min-width: 426px) {
+@media (min-width: 700px) {
  .place {
-  padding: 0 3.12vw 73px 3.12vw;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, auto);
-  gap: 48px 28px;
+    gap: 73px;
  }
 }
 
 @media (min-width: 769px) {
   .place {
-    padding: 0 4.68vw 80px 4.68vw;
+    gap: 80px;
   }
 }
-
-@media (min-width: 1025px) {
-  .place {
-   padding: 0 11.56vw 80px 11.56vw;
-   gap: 48px 40px;
-  }
- }

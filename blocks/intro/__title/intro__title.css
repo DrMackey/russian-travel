@@ -1,7 +1,5 @@
 .intro__title {
   margin: 0;
-  padding: 16px;
-  padding-top: 0;
   padding-bottom: 40px;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   color: white;
@@ -12,21 +10,8 @@
 
 @media (min-width: 426px) {
   .intro__title {
-    padding: 0 24px 40px 24px;
+    padding-bottom: 40px;
     font-size: 54px;
     line-height: 58px;
   }
-}
-
-@media (min-width: 769px) {
-  .intro__title {
-    max-width: 690px;
-    padding: 0 4.68vw 40px 4.68vw;
-  }
-}
-
-@media (min-width: 1025px) {
- .intro__title {
-  padding: 0 11.56vw 40px 11.56vw;
- }
 }

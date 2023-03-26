@@ -10,6 +10,14 @@
 
 @media (min-width: 769px) {
   .lead {
+    margin: 0 auto;
+    max-width: 90.62vw;
     padding-bottom: 92px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .lead {
+    max-width: 984px;
   }
 }

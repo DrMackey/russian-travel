@@ -1,8 +1,7 @@
 .cover__subtitle {
   position: relative;
-  margin: 0;
-  padding: 0 16px;
-  padding-bottom: 33px;
+  max-width: 90vw;
+  margin: 0 auto;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   color: white;
   font-weight: 400;
@@ -12,9 +11,9 @@
   z-index: 1;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 695px) {
   .cover__subtitle {
-    padding: 0 26.5vw 14.9vw 26.5vw;
+    max-width: 46.87vw;
     font-size: 18px;
     line-height: 22px;
   }
@@ -22,19 +21,13 @@
 
 @media (min-width: 769px) {
   .cover__subtitle {
-    padding: 0 32.42vw 19.04vw 32.42vw;
+    max-width: 35.15vw;
 
   }
 }
 
 @media (min-width: 1025px) {
   .cover__subtitle {
-   padding: 0 32.18vw 19.14vw 32.18vw;
+    max-width: 360px;
   }
  }
-
- @media (min-width: 1281px) {
-  .cover__title {
-    padding: 0px 412px 245px 412px;
-  }
-}

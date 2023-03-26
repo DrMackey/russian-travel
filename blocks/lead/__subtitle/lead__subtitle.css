@@ -1,7 +1,6 @@
 .lead__subtitle {
-  margin: 0;
-  padding: 16px;
-  padding-top: 0;
+  max-width: 90vw;
+  margin: 0 auto;
   padding-bottom: 40px;
   text-align: center;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
@@ -11,9 +10,10 @@
   line-height: 20px;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 730px) {
   .lead__subtitle {
-    padding: 0 64px 56px 64px;
+    max-width: 83.33vw;
+    padding-bottom: 56px;
     font-size: 30px;
     line-height: 36px;
   }
@@ -21,12 +21,13 @@
 
 @media (min-width: 769px) {
   .lead__subtitle {
-    padding: 0 18.75vw 56px 18.75vw;
+    max-width: 62.5vw;
   }
 }
 
 @media (min-width: 1025px) {
   .lead__subtitle {
-    padding: 0 25vw 64px 25vw;
+    max-width: 640px;
+    padding-bottom: 64px;
   }
 }

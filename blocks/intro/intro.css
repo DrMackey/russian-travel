@@ -1,15 +1,27 @@
 .intro {
+  max-width: 90vw;
+  margin: 0 auto;
   padding-bottom: 64px;
 }
 
 @media (min-width: 426px) {
   .intro {
+    max-width: 93.75vw;
     padding-bottom: 88px;
   }
 }
 
 @media (min-width: 769px) {
   .intro {
+    margin: 0 auto 0 4.68vw;
+    max-width: 690px;
     padding-bottom: 92px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .intro {
+    margin: 0 auto;
+    max-width: 984px;
   }
 }
