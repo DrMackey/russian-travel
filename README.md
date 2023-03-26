@@ -21,5 +21,5 @@
 
 **Ссылка проекта на GitHub**
 
-[Ссылка на репозиторий](https://github.com/DrMackey/russian-travel)
-[Ссылка на GitHub Pages]()
+* [Ссылка на репозиторий](https://github.com/DrMackey/russian-travel)
+* [Ссылка на GitHub Pages](https://drmackey.github.io/russian-travel/)
