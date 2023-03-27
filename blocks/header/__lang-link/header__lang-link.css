@@ -1,5 +1,5 @@
 .header__lang-link {
-  display: inline-block;
+  display: flex;
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   color: white;
   font-size: 18px;

@@ -3,7 +3,6 @@
   justify-content: space-between;
   margin: 0 auto;
   max-width: 90vw;
-  height: 42px;
   padding: 16px 0 48px;
   box-sizing: content-box;
 }
@@ -11,7 +10,6 @@
 @media (min-width: 426px) {
   .header {
     max-width: 93.75vw;
-    height: 52px;
     padding: 28px 0 48px;
   }
 }

@@ -11,6 +11,23 @@
   background-size: cover;
 }
 
+.cover__wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity .5s ease-in-out;
+}
+
+.cover__wrapper:hover::before {
+  cursor: pointer;
+  opacity: .8;
+}
+
 @media (min-width: 695px) {
   .cover__wrapper {
     padding: 115px 0;
